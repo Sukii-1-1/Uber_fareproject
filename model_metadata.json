@@ -1,0 +1,21 @@
+{
+  "model": "Gradient Boosting",
+  "test_metrics": {
+    "MAE": 1.9107,
+    "RMSE": 3.5315,
+    "R2": 0.8511
+  },
+  "trained_rows": 33032,
+  "sklearn_version": "1.6.1",
+  "input_columns": [
+    "pickup_latitude",
+    "pickup_longitude",
+    "dropoff_latitude",
+    "dropoff_longitude",
+    "passenger_count",
+    "pickup_datetime",
+    "weather",
+    "traffic_condition",
+    "car_condition"
+  ]
+}
